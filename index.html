@@ -1,99 +1,792 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="yUyEe0xGYj9z4RNu1NrXK0twNop1lV0x6roxiEYQaB0" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Effective Termite Control Strategies for Gurgaon Residents</title>
-<meta name="description" content="Protect your Gurgaon home with these effective termite control strategies, including regular inspections, chemical and physical barriers, and professional pest control services." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NurseLink India | Nursing Services Marketplace</title>
+  <meta name="description" content="NurseLink India connects patients with verified nursing agencies across India. Search by city, service and availability, compare providers, raise care leads, and manage subscriptions." />
+  <meta name="keywords" content="nursing services india, home nursing, patient care, ICU nurse, elder care, nursing agency" />
+  <meta property="og:title" content="NurseLink India - India's Nursing Services Marketplace" />
+  <meta property="og:description" content="Book trusted nursing agencies in India. Compare providers, request quotes, and manage healthcare leads in one place." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://nurselinkindia.com/" />
+  <style>
+    :root {
+      --primary: #0a66c2;
+      --secondary: #e9f4ff;
+      --accent: #0d84ff;
+      --dark: #14324d;
+      --text: #1f2a38;
+      --muted: #5f6f82;
+      --success: #1d9f6e;
+      --warning: #ff9f1c;
+      --danger: #e04f5f;
+      --white: #ffffff;
+      --border: #d6e3f0;
+    }
 
-<link rel="canonical" href="https://armourpestcontrol.in/anti-termite.html" /> 
+    * {
+      box-sizing: border-box;
+    }
 
-<style>
     body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
+      margin: 0;
+      font-family: "Inter", "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: #f6fbff;
+      line-height: 1.5;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
     }
 
     .container {
-        max-width: 800px;
-        margin: 20px auto;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: min(1200px, 92%);
+      margin: 0 auto;
+    }
+
+    .topbar {
+      background: var(--dark);
+      color: #d7ebff;
+      font-size: 0.9rem;
+      padding: 0.4rem 0;
+    }
+
+    .topbar .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .navbar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 30;
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.8rem 0;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: 0.4px;
+      font-size: 1.25rem;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+    }
+
+    .btn,
+    button {
+      border: 0;
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .btn-primary:hover {
+      background: #0757a5;
+    }
+
+    .btn-outline {
+      border: 1px solid var(--primary);
+      background: var(--white);
+      color: var(--primary);
+    }
+
+    .hero {
+      background: linear-gradient(145deg, #f2f9ff 40%, #d9edff 100%);
+      padding: 2.2rem 0 2.7rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 1.3rem;
+      align-items: center;
     }
 
     h1 {
-        font-size: 32px;
-        margin-bottom: 20px;
+      margin: 0 0 0.6rem;
+      font-size: clamp(1.5rem, 2.8vw, 2.4rem);
+      color: #103560;
     }
 
-    p {
-        font-size: 16px;
-        line-height: 1.6;
-        margin-bottom: 15px;
+    .search-panel {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.9rem;
+      display: grid;
+      grid-template-columns: 2fr 1.4fr 1fr auto;
+      gap: 0.6rem;
+      margin-top: 1rem;
     }
 
-    .author {
-        font-style: italic;
-        color: #888;
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.65rem 0.7rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      font: inherit;
     }
 
-    .date {
-        font-size: 14px;
-        color: #888;
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.7rem;
     }
-</style>
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 10px 18px rgba(10, 102, 194, 0.06);
+    }
+
+    .section {
+      padding: 2rem 0;
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #0f365f;
+    }
+
+    .categories,
+    .plans,
+    .city-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.9rem;
+    }
+
+    .chip {
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      background: var(--secondary);
+      color: #08407f;
+      margin-right: 0.3rem;
+      margin-top: 0.35rem;
+    }
+
+    .listing-layout {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 1rem;
+    }
+
+    .provider-list {
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .provider-item {
+      display: grid;
+      grid-template-columns: 1.2fr auto;
+      gap: 0.8rem;
+      align-items: center;
+    }
+
+    .rating {
+      font-weight: 700;
+      color: #f38f00;
+    }
+
+    .profile-grid,
+    .dashboards,
+    .admin-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .lead-form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.7rem;
+    }
+
+    .lead-form .full {
+      grid-column: 1 / -1;
+    }
+
+    .pricing {
+      border: 2px solid transparent;
+    }
+
+    .pricing.highlight {
+      border-color: var(--primary);
+      transform: translateY(-3px);
+    }
+
+    .faq {
+      display: grid;
+      gap: 0.6rem;
+    }
+
+    .login-box {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      background: #25d366;
+      color: white;
+      padding: 0.75rem 1rem;
+      border-radius: 999px;
+      font-weight: 700;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      z-index: 40;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      background: #0e2d48;
+      color: #d2e8ff;
+      padding: 1.6rem 0;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 1000px) {
+      .hero-grid,
+      .listing-layout,
+      .profile-grid,
+      .dashboards,
+      .admin-grid,
+      .categories,
+      .plans,
+      .city-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .search-panel,
+      .lead-form {
+        grid-template-columns: 1fr;
+      }
+
+      .provider-item {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-
-<h1>Effective Termite Control Strategies for Gurgaon Residents</h1>
-
-<p>
-    Termites are a significant problem in Gurgaon due to the region's climate and urbanization, which provide ideal conditions for these pests to thrive. Effective termite control is crucial to protect homes and buildings from structural damage. Here are some comprehensive strategies for termite control that Gurgaon residents can implement:
-
-    1. Regular Inspections
-    Frequency: Conduct termite inspections at least once a year.
-    Professional Help: Hire licensed pest control professionals for thorough inspections.
-    Signs of Infestation: Look for mud tubes, discarded wings, hollow-sounding wood, and frass (termite droppings).
-    2. Preventive Measures
-    Moisture Control: Termites are attracted to moisture. Ensure proper drainage around the foundation and repair any leaks in pipes, roofs, and faucets.
-    Ventilation: Improve ventilation in crawl spaces to reduce humidity.
-    Gutter Maintenance: Keep gutters and downspouts clean to prevent water accumulation near the foundation.
-    3. Chemical Barriers
-    Soil Treatment: Use termiticides to create a chemical barrier in the soil around the foundation of buildings. This prevents termites from entering the structure.
-    Bait Systems: Install termite bait stations around the perimeter of the property. These baits attract termites, which then carry the poison back to their colony, effectively eliminating it.
-    4. Physical Barriers
-    Termite Shields: Install metal or plastic termite shields during construction to block termites from accessing the building.
-    Mesh Barriers: Use stainless steel mesh to protect vulnerable areas, such as around pipes and cables that enter the building.
-    5. Wood Treatment
-    Boron Treatments: Apply borate solutions to wood during construction to prevent termite infestation.
-    Pressure-Treated Wood: Use wood that has been pressure-treated with preservatives for construction purposes.
-    6. Landscaping Considerations
-    Mulch Management: Keep mulch at least 15 inches away from the foundation as it retains moisture and attracts termites.
-    Tree and Shrub Maintenance: Ensure that trees and shrubs are not planted too close to the house. Trim any branches that touch the building to prevent termite bridges.
-    7. Structural Repairs
-    Fix Cracks: Seal cracks and crevices in the foundation, walls, and roof to prevent termite entry.
-    Replace Damaged Wood: Promptly replace any wood that has been damaged by termites or moisture.
-    8. Education and Awareness
-    Community Programs: Participate in local termite control awareness programs to stay informed about the latest prevention and treatment techniques.
-    Homeowner Associations: Work with homeowner associations to implement community-wide termite control measures.
-    9. Professional Pest Control Services
-    Reputation and Certification: Choose reputable pest control companies with certifications from recognized bodies.
-    Integrated Pest Management (IPM): Opt for companies that use IPM techniques, combining chemical and non-chemical methods for effective termite control.
-    Conclusion
-   <a href="https://armourpestcontrol.in/anti-termite.html" ><b> Termite control </b> </a> is an ongoing process that requires a combination of preventive measures, regular inspections, and professional treatments. By implementing these strategies, Gurgaon residents can protect their homes and buildings from the devastating effects of termite infestations. Stay vigilant, and don't hesitate to seek professional help to ensure your property remains termite-free.
-    
-    
-    
-    
-    
-    
-
-</p>
+  <div class="topbar">
+    <div class="container">
+      <span>24x7 Care Support | Verified Agencies | PAN India Coverage</span>
+      <span id="authStatus">Login with OTP to access leads dashboard</span>
     </div>
+  </div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">NurseLink India</div>
+      <nav class="nav-links">
+        <a href="#categories">Categories</a>
+        <a href="#providers">Providers</a>
+        <a href="#leads">Post Requirement</a>
+        <a href="#subscription">Plans</a>
+        <a href="#admin">Admin</a>
+      </nav>
+      <button class="btn btn-outline" id="openOtpBtn">OTP Login</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>India's Trusted Marketplace for Nursing Services</h1>
+        <p class="muted">Connect patients, hospitals, and families with trusted nursing agencies for home care, ICU support, post-surgery recovery, mother & baby care, and elder care.</p>
+        <div class="search-panel card">
+          <input id="searchService" type="text" placeholder="Search service (ICU, Elder Care...)" />
+          <select id="searchCity">
+            <option value="">Select City</option>
+          </select>
+          <select id="searchAvailability">
+            <option value="">Availability</option>
+            <option>Immediate</option>
+            <option>Within 24h</option>
+            <option>Scheduled</option>
+          </select>
+          <button class="btn btn-primary" id="searchBtn">Search</button>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="card">
+          <h3>8,200+</h3>
+          <div class="muted">Nursing professionals onboarded</div>
+        </div>
+        <div class="card">
+          <h3>125+</h3>
+          <div class="muted">Verified agencies</div>
+        </div>
+        <div class="card">
+          <h3>45+</h3>
+          <div class="muted">Indian cities covered</div>
+        </div>
+        <div class="card">
+          <h3>4.8/5</h3>
+          <div class="muted">Average patient rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <div class="container">
+      <h2>Nursing Service Categories</h2>
+      <div class="categories" id="categoryGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="providers">
+    <div class="container">
+      <h2>Provider Listings with Smart Filters</h2>
+      <div class="listing-layout">
+        <aside class="card">
+          <h3>Filter Providers</h3>
+          <label>City</label>
+          <select id="filterCity"><option value="">All Cities</option></select>
+          <label>Category</label>
+          <select id="filterCategory"><option value="">All Categories</option></select>
+          <label>Min Rating</label>
+          <select id="filterRating">
+            <option value="">Any</option>
+            <option value="4">4+</option>
+            <option value="4.5">4.5+</option>
+          </select>
+          <label>Budget per day</label>
+          <input id="filterBudget" type="number" min="500" placeholder="Max ₹" />
+          <button class="btn btn-primary" id="applyFilters" style="margin-top:0.7rem">Apply Filters</button>
+        </aside>
+        <div>
+          <div id="providerResults" class="provider-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="profile">
+    <div class="container">
+      <h2>Provider Profile</h2>
+      <div class="profile-grid">
+        <article class="card" id="profileCard">
+          <h3>Select a provider to view full profile</h3>
+          <p class="muted">Profile includes certifications, service coverage, pricing, languages, experience and WhatsApp contact.</p>
+        </article>
+        <article class="card">
+          <h3>Quick Lead Request</h3>
+          <form id="quickLeadForm" class="lead-form">
+            <input required id="quickName" placeholder="Patient/Attendant Name" />
+            <input required id="quickPhone" placeholder="Mobile Number" />
+            <select id="quickNeed" required>
+              <option value="">Service Needed</option>
+            </select>
+            <select id="quickCity" required>
+              <option value="">City</option>
+            </select>
+            <textarea class="full" id="quickNote" rows="3" placeholder="Case details"></textarea>
+            <button class="btn btn-primary full" type="submit">Submit Lead to Selected Provider</button>
+          </form>
+          <p id="quickLeadMsg" class="muted"></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="dashboards">
+    <div class="container">
+      <h2>User & Provider Dashboards</h2>
+      <div class="dashboards">
+        <div class="card">
+          <h3>Patient Dashboard</h3>
+          <ul id="userLeadList"></ul>
+          <p class="muted">Track requested services, assigned agencies, and estimated response times.</p>
+        </div>
+        <div class="card">
+          <h3>Provider Dashboard</h3>
+          <ul id="providerLeadList"></ul>
+          <p class="muted">View incoming leads, city-wise demand analytics, and upgrade plan CTA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="leads">
+    <div class="container">
+      <h2>Lead Generation System</h2>
+      <form id="leadForm" class="card lead-form">
+        <input id="leadName" required placeholder="Full Name" />
+        <input id="leadPhone" required placeholder="Phone Number" />
+        <select id="leadCategory" required><option value="">Select Care Type</option></select>
+        <select id="leadCity" required><option value="">Select City</option></select>
+        <select id="leadDuration" required>
+          <option value="">Duration</option>
+          <option>8 hours/day</option>
+          <option>12 hours/day</option>
+          <option>24x7 Live-in</option>
+        </select>
+        <select id="leadBudget" required>
+          <option value="">Budget</option>
+          <option>₹800 - ₹1200/day</option>
+          <option>₹1200 - ₹1800/day</option>
+          <option>₹1800+/day</option>
+        </select>
+        <textarea class="full" id="leadNotes" rows="3" placeholder="Condition, start date, language preference..."></textarea>
+        <button class="btn btn-primary full" type="submit">Generate Lead</button>
+        <p id="leadMessage" class="full muted"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" id="subscription">
+    <div class="container">
+      <h2>Subscription Plans for Agencies</h2>
+      <div class="plans">
+        <article class="card pricing">
+          <h3>Starter</h3>
+          <p><b>₹4,999/month</b></p>
+          <p>Up to 20 leads/month, basic listing, one city visibility.</p>
+          <button class="btn btn-outline plan-btn" data-plan="Starter">Choose Starter</button>
+        </article>
+        <article class="card pricing highlight">
+          <h3>Growth</h3>
+          <p><b>₹11,999/month</b></p>
+          <p>Unlimited leads, priority placement, 5 city pages, CRM export.</p>
+          <button class="btn btn-primary plan-btn" data-plan="Growth">Choose Growth</button>
+        </article>
+        <article class="card pricing">
+          <h3>Enterprise</h3>
+          <p><b>₹24,999/month</b></p>
+          <p>National visibility, API access, account manager, WhatsApp automation.</p>
+          <button class="btn btn-outline plan-btn" data-plan="Enterprise">Choose Enterprise</button>
+        </article>
+      </div>
+      <p id="planMessage" class="muted"></p>
+    </div>
+  </section>
+
+  <section class="section" id="cities">
+    <div class="container">
+      <h2>SEO Optimized City Pages</h2>
+      <p class="muted">Auto-generated pages with city-specific intro, demand stats and top providers.</p>
+      <div class="city-grid" id="cityGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="admin">
+    <div class="container">
+      <h2>Admin Panel</h2>
+      <div class="admin-grid">
+        <article class="card">
+          <h3>Platform Overview</h3>
+          <ul id="adminStats"></ul>
+        </article>
+        <article class="card">
+          <h3>Lead Moderation Queue</h3>
+          <ul id="leadQueue"></ul>
+        </article>
+      </div>
+      <div class="faq" style="margin-top:1rem">
+        <div class="card"><b>Scalability Architecture:</b> Stateless API + PostgreSQL + Redis queue + CDN cache + city-wise SEO routing + role-based auth.</div>
+        <div class="card"><b>Production Readiness:</b> Input validation, device-responsive UI, mock OTP auth flow, analytics-ready event hooks, and modular data layers.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <strong>NurseLink India</strong> · Nursing Services Marketplace for India · support@nurselinkindia.com
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" id="whatsappGlobal" target="_blank" rel="noopener" href="https://wa.me/919876543210?text=Hi%20NurseLink%2C%20I%20need%20nursing%20support">WhatsApp Help</a>
+
+  <script>
+    const categories = [
+      "ICU Trained Nurse",
+      "Elder Care",
+      "Post-Surgery Care",
+      "Mother & Baby Care",
+      "Palliative Care",
+      "Physiotherapy Assistant",
+      "Critical Care at Home",
+      "Attendant Services"
+    ];
+
+    const providers = [
+      { id: 1, name: "CareNest Nursing Agency", city: "Delhi", rating: 4.8, budget: 1600, category: "ICU Trained Nurse", exp: 9, certifications: "GNM, BLS, ACLS", whatsapp: "919999000101", languages: "Hindi, English" },
+      { id: 2, name: "Arogya Nurse Connect", city: "Mumbai", rating: 4.6, budget: 1400, category: "Elder Care", exp: 7, certifications: "ANM, Dementia Care", whatsapp: "919999000102", languages: "Hindi, Marathi, English" },
+      { id: 3, name: "Sanjeevani Home Nursing", city: "Bengaluru", rating: 4.9, budget: 1900, category: "Post-Surgery Care", exp: 11, certifications: "BSc Nursing, Wound Care", whatsapp: "919999000103", languages: "Kannada, Hindi, English" },
+      { id: 4, name: "Shifa Nursing Partners", city: "Hyderabad", rating: 4.4, budget: 1200, category: "Mother & Baby Care", exp: 6, certifications: "ANM, Lactation Support", whatsapp: "919999000104", languages: "Telugu, Urdu, English" },
+      { id: 5, name: "Jeevan Rakshak Nurses", city: "Kolkata", rating: 4.7, budget: 1300, category: "Palliative Care", exp: 8, certifications: "Palliative Nursing", whatsapp: "919999000105", languages: "Bengali, Hindi, English" },
+      { id: 6, name: "Kerala Skilled Nurses Hub", city: "Kochi", rating: 4.9, budget: 1750, category: "Critical Care at Home", exp: 12, certifications: "ICU Cert, Infection Control", whatsapp: "919999000106", languages: "Malayalam, English" }
+    ];
+
+    const cities = [...new Set(providers.map((p) => p.city)), "Chennai", "Pune", "Ahmedabad"];
+    const leads = [];
+    let currentProvider = null;
+    let loggedInUser = null;
+
+    function fillDropdown(selectId, values) {
+      const el = document.getElementById(selectId);
+      values.forEach((v) => {
+        const option = document.createElement("option");
+        option.value = v;
+        option.textContent = v;
+        el.appendChild(option);
+      });
+    }
+
+    function renderCategories() {
+      const grid = document.getElementById("categoryGrid");
+      grid.innerHTML = categories.map((cat) => `
+        <article class="card">
+          <h3>${cat}</h3>
+          <p class="muted">Verified providers available with transparent rates and city-wise support.</p>
+          <button class="btn btn-outline" onclick="quickSearch('${cat}')">Explore</button>
+        </article>
+      `).join("");
+    }
+
+    function renderProviders(list = providers) {
+      const wrap = document.getElementById("providerResults");
+      if (!list.length) {
+        wrap.innerHTML = '<article class="card">No providers found for selected filters.</article>';
+        return;
+      }
+
+      wrap.innerHTML = list.map((p) => `
+        <article class="card provider-item">
+          <div>
+            <h3>${p.name}</h3>
+            <div class="muted">${p.city} • ${p.category} • ${p.exp}+ years experience</div>
+            <div class="rating">⭐ ${p.rating}</div>
+            <span class="chip">Starting ₹${p.budget}/day</span>
+            <span class="chip">${p.certifications}</span>
+          </div>
+          <div>
+            <button class="btn btn-primary" onclick="openProfile(${p.id})">View Profile</button>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function openProfile(id) {
+      const provider = providers.find((p) => p.id === id);
+      if (!provider) return;
+      currentProvider = provider;
+      const card = document.getElementById("profileCard");
+      card.innerHTML = `
+        <h3>${provider.name}</h3>
+        <p class="muted">${provider.city} · ${provider.category}</p>
+        <p><b>Rating:</b> ${provider.rating} | <b>Experience:</b> ${provider.exp} years</p>
+        <p><b>Certifications:</b> ${provider.certifications}</p>
+        <p><b>Languages:</b> ${provider.languages}</p>
+        <p><b>Pricing:</b> From ₹${provider.budget}/day</p>
+        <a class="btn btn-outline" target="_blank" rel="noopener" href="https://wa.me/${provider.whatsapp}?text=Hi%20${encodeURIComponent(provider.name)}%2C%20I%20need%20nursing%20service">Chat on WhatsApp</a>
+      `;
+      location.hash = "profile";
+    }
+
+    function renderCityPages() {
+      const cityGrid = document.getElementById("cityGrid");
+      cityGrid.innerHTML = cities.map((city) => {
+        const cityProviders = providers.filter((p) => p.city === city).length;
+        return `
+          <article class="card">
+            <h3>Nursing Services in ${city}</h3>
+            <p class="muted">Book verified home nurses in ${city}. ${cityProviders || 4}+ providers active, quick response in under 30 minutes.</p>
+            <a href="#providers" onclick="document.getElementById('filterCity').value='${city}';applyFilters();">View ${city} Providers</a>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function renderAdmin() {
+      document.getElementById("adminStats").innerHTML = `
+        <li>Total Providers: ${providers.length}</li>
+        <li>Total Active Leads: ${leads.length}</li>
+        <li>Top City Demand: ${leads[0]?.city || "Delhi"}</li>
+        <li>Conversion Rate (demo): 34%</li>
+      `;
+
+      const queue = document.getElementById("leadQueue");
+      if (!leads.length) {
+        queue.innerHTML = "<li>No leads in queue yet.</li>";
+        return;
+      }
+      queue.innerHTML = leads.map((lead, i) => `<li>#${i + 1} ${lead.name} (${lead.city}) - ${lead.category}</li>`).join("");
+    }
+
+    function renderDashboards() {
+      const userLeadList = document.getElementById("userLeadList");
+      const providerLeadList = document.getElementById("providerLeadList");
+
+      userLeadList.innerHTML = leads.slice(-5).map((lead) => `<li>${lead.category} in ${lead.city} - status: Shared with ${lead.assignedProvider || "matching agencies"}</li>`).join("") || "<li>No recent leads.</li>";
+
+      providerLeadList.innerHTML = leads.slice(-5).map((lead) => `<li>${lead.name} requested ${lead.category} (${lead.budget})</li>`).join("") || "<li>No incoming leads yet.</li>";
+    }
+
+    function applyFilters() {
+      const city = document.getElementById("filterCity").value;
+      const category = document.getElementById("filterCategory").value;
+      const rating = parseFloat(document.getElementById("filterRating").value || "0");
+      const budget = parseFloat(document.getElementById("filterBudget").value || "999999");
+
+      const filtered = providers.filter((p) =>
+        (!city || p.city === city) &&
+        (!category || p.category === category) &&
+        p.rating >= rating &&
+        p.budget <= budget
+      );
+
+      renderProviders(filtered);
+    }
+
+    function quickSearch(category) {
+      document.getElementById("filterCategory").value = category;
+      applyFilters();
+      location.hash = "providers";
+    }
+
+    function handleMainSearch() {
+      const service = document.getElementById("searchService").value.trim().toLowerCase();
+      const city = document.getElementById("searchCity").value;
+
+      const results = providers.filter((p) =>
+        (!city || p.city === city) &&
+        (!service || p.category.toLowerCase().includes(service) || p.name.toLowerCase().includes(service))
+      );
+      renderProviders(results);
+      location.hash = "providers";
+    }
+
+    function otpLogin() {
+      const phone = prompt("Enter mobile number for OTP login:");
+      if (!phone) return;
+      const otp = Math.floor(100000 + Math.random() * 900000);
+      alert(`Demo OTP sent: ${otp}`);
+      const entered = prompt("Enter OTP:");
+      if (entered === String(otp)) {
+        loggedInUser = phone;
+        document.getElementById("authStatus").textContent = `Logged in as ${phone}`;
+      } else {
+        alert("Invalid OTP");
+      }
+    }
+
+    function submitLead(payload) {
+      const matched = providers.find((p) => p.city === payload.city && p.category === payload.category) || providers[0];
+      payload.assignedProvider = matched.name;
+      leads.push(payload);
+      renderDashboards();
+      renderAdmin();
+    }
+
+    document.getElementById("searchBtn").addEventListener("click", handleMainSearch);
+    document.getElementById("applyFilters").addEventListener("click", applyFilters);
+    document.getElementById("openOtpBtn").addEventListener("click", otpLogin);
+
+    document.getElementById("leadForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const payload = {
+        name: document.getElementById("leadName").value,
+        phone: document.getElementById("leadPhone").value,
+        category: document.getElementById("leadCategory").value,
+        city: document.getElementById("leadCity").value,
+        duration: document.getElementById("leadDuration").value,
+        budget: document.getElementById("leadBudget").value,
+        notes: document.getElementById("leadNotes").value
+      };
+      submitLead(payload);
+      document.getElementById("leadMessage").textContent = `Lead created successfully and routed to ${payload.assignedProvider}.`;
+      e.target.reset();
+    });
+
+    document.getElementById("quickLeadForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (!currentProvider) {
+        document.getElementById("quickLeadMsg").textContent = "Please select a provider first from listings.";
+        return;
+      }
+      const payload = {
+        name: document.getElementById("quickName").value,
+        phone: document.getElementById("quickPhone").value,
+        category: document.getElementById("quickNeed").value,
+        city: document.getElementById("quickCity").value,
+        duration: "Custom",
+        budget: "On call",
+        notes: document.getElementById("quickNote").value,
+        assignedProvider: currentProvider.name
+      };
+      leads.push(payload);
+      renderDashboards();
+      renderAdmin();
+      document.getElementById("quickLeadMsg").textContent = `Lead shared with ${currentProvider.name}.`;
+      e.target.reset();
+    });
+
+    document.querySelectorAll(".plan-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const plan = btn.dataset.plan;
+        document.getElementById("planMessage").textContent = `${plan} plan selected. Sales team will contact you for onboarding.`;
+      });
+    });
+
+    fillDropdown("searchCity", cities);
+    fillDropdown("filterCity", cities);
+    fillDropdown("leadCity", cities);
+    fillDropdown("quickCity", cities);
+
+    fillDropdown("filterCategory", categories);
+    fillDropdown("leadCategory", categories);
+    fillDropdown("quickNeed", categories);
+
+    renderCategories();
+    renderProviders();
+    renderCityPages();
+    renderDashboards();
+    renderAdmin();
+  </script>
 </body>
 </html>
